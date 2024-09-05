@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#contanier {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/imagem_capa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+background-attachment: fixed;
+    background-size: cover;
+}

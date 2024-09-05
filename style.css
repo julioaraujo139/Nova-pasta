@@ -8,13 +8,14 @@
 
 }
 
-.elementor-background img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: fit-content;  
-    z-index: -1;
+#contanier {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/imagem_capa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .elementor-contanier {
