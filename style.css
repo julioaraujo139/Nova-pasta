@@ -5,27 +5,23 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
-
 }
 
-#contanier {
-    width: 100vw;
-    height: 100vh;
+header {
     background-image: url(images/imagem_capa.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    background-position: top center;
+    background-size: 100vw;
 }
 
 .elementor-contanier {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     padding-top: 120px;
     padding-right: 120px;
     padding-bottom: 40px;
     padding-left: 120px;
+    z-index: 2;
 }
 
 .elementor-logo {
@@ -220,8 +216,7 @@
 
 .elementor-contanier-sectcion-5-display {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -230,6 +225,7 @@
     color: white;
     background-color: rgb(129, 172, 55);
     border-radius: 15px;
+    margin: 10px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -242,7 +238,7 @@
 }
 
 .elementor-contanier-sectcion-5-display-inside p {
-    padding: 1px 0 10px;
+    padding: 0 0 10px;
     font-weight: 400;
 }
 
@@ -259,18 +255,19 @@ footer {
 
 .elementor-contanier-footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 40px;
 }
 
 .elementor-contanier-footer-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0 20px;
 }
 
+.elementor-contanier-footer-address {
+    margin: 0 20px;
+}
 .elementor-contanier-footer-address div {
     display: flex;
     align-items: center;
@@ -285,6 +282,7 @@ footer {
 .elementor-contanier-footer-icone {
     display: flex;
     flex-direction: row;
+    margin: 0 20px;
 }
 
 .elementor-contanier-footer-icone img {
@@ -292,6 +290,8 @@ footer {
 }
 
 .elementor-contanier-footer-copyright {
+    display: flex;
+    justify-content: center;
     font-size: 12px;
 }
 

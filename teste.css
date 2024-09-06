@@ -1,13 +1,15 @@
 * {
-    margin: 0;
+    box-sizing: border-box;
     padding: 0;
 }
+
+html {
+    font: 400 100% / 1.4 "Ensign:Sans", Arial, "noto sans", sans-serif;
+    text-size-adjust: 100%;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+}
 #contanier {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(images/imagem_capa.png);
-    background-repeat: no-repeat;
-    background-position: center;
-background-attachment: fixed;
-    background-size: cover;
+    position: absolute;
+    z-index: -1;
 }
